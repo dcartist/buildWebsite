@@ -1,0 +1,18 @@
+$playfair: 'Playfair Display, serif';
+$Roboto: 'Roboto, sans-serif';
+$Ubuntu: 'Ubuntu, sans-serif';
+$font-family: 'Oxygen, sans-serif';
+$mainLogo: rgba(0, 0, 0, .45);
+$webBackground: white;
+.logo {
+    color: $mainLogo;
+    font-family: $playfair;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 0.2px;
+}
+
+;
+@import "partials/nav.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+// @import 'material-ui/core/Input';
