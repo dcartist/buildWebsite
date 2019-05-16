@@ -4,6 +4,11 @@ $Ubuntu: 'Ubuntu, sans-serif';
 $font-family: 'Oxygen, sans-serif';
 $mainLogo: rgba(0, 0, 0, .45);
 $webBackground: white;
+$rounder: 50%;
+@mixin rounded {
+    border-radius: $rounder;
+}
+
 .logo {
     // color: $mainLogo;
     font-family: $playfair;
@@ -16,6 +21,36 @@ $webBackground: white;
 body {
     padding: 10px;
     margin: 0 20px;
+}
+
+.rightSideImg img {
+    height: 100px;
+    // float: right;
+    // right: 0;
+}
+
+.rightSideImg {
+    text-align: right;
+    background-color: rgb(214, 238, 238);
+}
+
+//From W3 school Altered
+input[type=text] {
+    width: 50px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+
+/* When the input field gets focus, change its width to 100% */
+
+input[type=text]:focus {
+    width: 30%;
+}
+
+.roundIcons {
+    @include rounded;
+    border: 1px solid turquoise;
 }
 
 @import "partials/nav.scss";
