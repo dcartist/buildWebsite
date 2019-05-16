@@ -29,6 +29,13 @@ body {
     // right: 0;
 }
 
+.bottom {
+    vertical-align: bottom !important;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
 .rightSideImg {
     text-align: right;
     background-color: rgb(214, 238, 238);
@@ -51,6 +58,25 @@ input[type=text]:focus {
 .roundIcons {
     @include rounded;
     border: 1px solid turquoise;
+}
+
+.infoRight {}
+
+header {
+    font-size: 16px;
+    font-weight: 600;
+    // margin-bottom: -3;
+}
+
+p {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    margin: 0;
+    font-size: 10px;
 }
 
 @import "partials/nav.scss";
