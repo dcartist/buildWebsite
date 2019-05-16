@@ -13,6 +13,10 @@ $webBackground: white;
 }
 
 ;
+body {
+    padding: 10px;
+}
+
 @import "partials/nav.scss";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 // @import 'material-ui/core/Input';
