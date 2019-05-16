@@ -112,6 +112,10 @@ input[type=text]:focus {
 
 .botTextRight {}
 
+.smallLeft {
+    font-size: 14px;
+}
+
 @import "partials/nav.scss";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 // @import 'material-ui/core/Input';
